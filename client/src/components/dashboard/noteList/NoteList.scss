@@ -1,0 +1,33 @@
+@import '../../ui/_variables';
+
+.note-lists-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+
+    h4{
+        color: white;
+    }
+
+    .note-lists{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        color: white;
+
+        .note-list{
+            cursor: pointer;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            background-color: rgba(255, 255, 255, 0.03);
+
+            p{
+                color: rgba(255, 255, 255, 0.6);
+                ;
+            }
+        }
+    }
+}

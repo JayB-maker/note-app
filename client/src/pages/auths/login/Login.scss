@@ -1,0 +1,40 @@
+@import "../../../components/ui/_variables";
+
+.container{
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  background-color: $black;
+  height: 100vh;
+  color: $white;
+  .login-container {
+    height: fit-content;
+    width: 400px;
+    filter: drop-shadow(0px 4px 15px rgba(134, 137, 135, 0.15));
+    border-radius: 8px;
+    padding: 32px 40px;
+    background-color: $black;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  
+    .heading{
+      margin-bottom: 8px;
+    }
+    h3,
+    p {
+      text-align: center;
+    }
+  
+    form{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+  
+      .login-button{
+          margin-top: 22px;
+      }
+    }
+  }
+}
